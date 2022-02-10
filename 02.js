@@ -10,19 +10,19 @@ class FooBar {
     }
 
     concatFooBar () {
+        // Find the error
         return this.foo.map( function (key){
             return key + "-" + this.bar;
         })
     }
 
     FooBarPromise () {
-        // Escribir una promesa que devuelva concatFooBar
+        // write a promise of concatFooBar
 
     }
 
     FooBarCallBack () {
-        // Escribir un callback que devuelva concatFooBar
-
+        // write a callback of concatFooBar
     }
 }
 
@@ -31,4 +31,4 @@ let foobar = new FooBar();
 
 
 
-//Utilizar FooBarPromise & FooBarCallBack
+//Use FooBarPromise & FooBarCallBack
